@@ -1,3 +1,3 @@
-# Simple-Countdown-Timer
+## Simple-Countdown-Timer
 
-## This is a simple countdown timer using Vanilla JavaScript
+### This is a simple countdown timer using Vanilla JavaScript
