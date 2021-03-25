@@ -3,28 +3,23 @@
     box-sizing: border-box;
     padding: 0;
 }
-
 html{
     min-height: 100%;
     background: linear-gradient(rgba(30, 2, 32), rgb(70, 2, 75));
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 body {
     font-family: 'Poppins',
         sans-serif;
     font-weight: 400;
 }
-
 ul {
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
 }
-
 .heading {
     text-transform: uppercase;
     color: white;
@@ -32,7 +27,6 @@ a {
     letter-spacing: 2px;
     flex-wrap: wrap;
 }
-
 .main {
     min-height: 65vh;
     width: 100vw;
@@ -43,13 +37,11 @@ a {
     place-items: center;
     flex-wrap: wrap;
 }
-
 .main img {
     position: fixed;
     animation: stars 3s infinite ease-in-out alternate-reverse;
     z-index: -1;
 }
-
 @keyframes stars {
     from {
         transform: scale(1);
@@ -59,13 +51,11 @@ a {
         transform: scale(1.1);
     }
 }
-
 .countdown {
     display: flex;
     padding: 2rem;
     flex-wrap: wrap;
 }
-
 .countdown-format {
     margin: 1rem;
     color:rgb(245, 41, 160);
@@ -77,12 +67,10 @@ a {
     text-align: center;
     border-radius: 1rem;
 }
-
 .countdown-format h4 {
     font-size: 2.5rem;
     padding: 1rem;
 }
-
 .countdown-format span {
     display: block;
     text-transform: uppercase;
@@ -90,7 +78,6 @@ a {
     font-size: 0.85rem;
     color: white;
 }
-
 .footer {
     margin: auto;
     padding: 1rem;
@@ -105,16 +92,13 @@ a {
     align-items: center;
     overflow: hidden;
 }
-
 .footer a {
     margin: 2rem;
 }
-
 .icon{
     background-color: transparent;
     transition: 0.4s ease-in-out;
 }
-
 .icon:hover {
     cursor: pointer;
     transform: scale(1.6);
