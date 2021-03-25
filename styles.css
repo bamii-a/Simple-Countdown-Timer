@@ -27,6 +27,11 @@ a {
     letter-spacing: 2px;
     flex-wrap: wrap;
 }
+@media screen and (max-width:600px){
+    .heading{
+        font-size: 1.2rem;
+    }
+}
 .main {
     min-height: 65vh;
     width: 100vw;
