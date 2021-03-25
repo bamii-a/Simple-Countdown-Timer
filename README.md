@@ -8,6 +8,8 @@ Users should be able to:
 - See hover states for all interactive elements on the page.
 - See a live countdown timer that ticks down every second.
 
+### Project Site
+- Hosted on Netlify - [](https://zealous-knuth-cb10b1.netlify.app/)
 
 ### Built with
 - Semantic HTML5 markup
