@@ -91,6 +91,7 @@ a {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    transition: 2s ease-in-out;
 }
 .footer a {
     margin: 2rem;
